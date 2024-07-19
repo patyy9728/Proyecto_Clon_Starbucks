@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    background-color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding: 0px 50px;
+}
+nav img{
+    width: 50px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.left{
+    display: flex;
+    align-items: center;
+    height: 80px;
+   
+}
+.left a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    margin: 10px;
+}
+
+.left a span{
+    font-size: 15px;
+    padding: 0px 10px;
+    letter-spacing: 0.1em;
+}
+
+.left a span:hover{
+    padding-bottom: 25px;
+    border-bottom: 4px solid #036635;
+    color: #036635;
+}
+.right a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 10px;
+}
+.button-ingresar{
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
+.button-ingresar:hover{
+color: #333333;
+border: 1px solid #333333;
+}
+.button-unete{
+    background-color: black;
+    border-radius: 40px;
+    padding: 5px 16px 10px 16px;
+}
+.button-unete span{
+    color: white;
+}
+.button-unete:hover{
+    background-color: #333333;
+}
+.content-block{
+    height: 394px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.content-block img{
+    height: 100%;
+}
+
+.content-block a:hover{
+    background-color: #ffffff11;
+}
+
+.latte, .rewards{
+    background-color: #1E3932;
+    color:white;
+}
+.text-block{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto 65px;
+}
+.text-block h2{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+.text-block p{
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.lavanda{
+    background-color: #D5D0E4;
+    color: #204285;
+}
+
+.matcha{
+    background-color: #D8DA6D;
+    color: #1E3932;
+}
+.limonada{
+    background-color: #0088C1;
+    color: white;
+}
+.helado{
+    background-color: #FAD4AA;
+    color: #222222;
+}
+.colombia{
+background-color: #D6E342;
+color:#1E3932;
+}
+.rewards a{
+    width: 250px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 20px;
+}
+.rewards h2{
+    margin: 0px;
+}
+.paga{
+    background-color: #F2F1F0;
+}
+.paga a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.paga h2{
+    margin: 0px ;
+}
+.termo{
+background-color: #A3029A;
+color: white;
+}
+
+.termo a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px; 
+}
+.termo h2{
+    margin: 0px ;
+}
+.noticias_promociones{
+    display: flex;
+}
+.noticias{
+    width:  660px;
+    height: 766px;
+    background-color: #D5D0E4;
+    margin:20px 20px 20px 0px;
+}
+.noticias img{
+    width: 100%;
+    height: 550px;
+}
+.noticias .text-card{
+   text-align: center;
+   padding-top: 52px;
+   font-size: 20px;
+}
+.noticias .text-card a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 4px 16px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.promociones{
+    width:  660px;
+    height: 766px;
+    background-color: #D8DA6D;
+    margin:20px 0px 20px 0px;
+}
+.promociones img{
+    width: 100%;
+    height: 550px;
+}
+.promociones .text-card{
+   text-align: center;
+   padding-top: 52px;
+   font-size: 20px;
+}
+.promociones .text-card a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 4px 16px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: 600;
+}
+footer{
+box-shadow: 0 0 15px #ddd;
+background: #fff;
+}
+.contact{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+.contact li{
+    list-style: none;
+}
+.contact .title{
+    font-size: 19px;
+    margin-bottom: 24px;
+}
+.contact .link, .contact .link a{
+    font-size: 14px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: #777;
+}
+.contact .link a:hover{
+    color: black;
+}
+.footer2{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.social-media a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    width: 36px;
+    height: 36px;
+    margin: 0px 30px 20px 0px;
+    text-align: center;
+    border-radius: 50%;
+}
+.permisos{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.permisos a{
+ text-align: center;
+display: inline-block;
+margin-bottom: 10px;
+margin-left: 15px;
+margin-right: 15px;
+border-right: 1px solid;
+padding-right: 15px;
+text-decoration: none;
+font-size: 16px;
+color: #777;
+}
+.permisos .cookies{
+    border: none;
+}
+.permisos a:hover{
+    color: black;
+}
+footer .text-one{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #777;
+}
+footer .text-two{
+    font-size: 10px;
+    color: #777;
+    display: flex;
+    justify-content: center;
+}

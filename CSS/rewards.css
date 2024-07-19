@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    background-color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+    height: 90px;
+    padding: 0px 40px;
+    box-shadow: 0 0 8px #ddd;
+    position: fixed;
+    background-color: white;
+}
+nav img{
+    width: 60px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    height: 80px;
+   
+}
+.left a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 13px;
+}
+.left a span{
+    padding: 0px 15px;
+}
+.left a span:hover{
+    padding-bottom: 29px;
+    border-bottom: 7px solid #036635;
+    color: #036635;
+}
+.left .rewards{
+    border-bottom: 7px solid #036635;
+    padding-bottom: 29px;
+}
+.right a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    margin: 10px;
+}
+.button-ingresar{
+    border: 1px solid;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 40px;
+}
+.button-unete{
+    background-color: black;
+    border-radius: 40px;
+    font-size: 13px;
+    padding: 5px 16px 10px 16px;
+}
+.button-unete span{
+    color: white;
+}
+.button-unete:hover{
+    background-color: #333333;
+}
+.section-left{
+    width: 560px;
+    margin-top: 90px;
+    height: 543px;
+    color: white;
+    background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+}
+.section-left .logo-rewards{
+    width: 300px;
+}
+.section-left p{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0px;
+    margin: 24px 0px;
+}
+.section-left .tel{
+    width: 43%;
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    z-index: -1;
+}
+ .section-left .buttons{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.section-left .button-ingresar{
+    border: 1px solid white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 40px;
+    color: white;
+    text-decoration: none;
+}
+.section-left .button-ingresar:hover{
+    color: #008248;
+    border: 1px #008248;
+}
+
+.section-left .button-unete{
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 40px;
+    color: black;
+    text-decoration: none;
+}
+.container-pag{
+    display: flex;
+}
+.container-pag .section-right{
+    width: 806px;
+    margin-top: 90px;
+    margin-left: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-right .text-one{
+    padding: 40px;
+}
+.section-right .text-one h1{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-right .text-one span{
+    font-weight: bold;
+}
+.section-right .text-one .cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section-right .text-one .card{
+    width: 141px;
+    text-align: center;
+    padding: 0px 8px;
+}
+.card img{
+    width: 121px;
+}
+.section-right .text-two{
+    padding: 40px;
+}
+.section-right .text-two .text{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section-right .text-two .cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section-right .text-two .card{
+    width: 141px;
+    text-align: center;
+    padding: 0px 8px;
+}
+.section-right .recompensas{
+    height: 482px;
+    background-color: #F1F0EB;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+.recompensas h2{
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+.recompensas .text{
+    margin: 20px 0px;
+}
+.recompensas img{
+    width: 354px;
+    margin-bottom: 16px;
+}
+.recompensas p{
+    margin-bottom: 16px;
+}
+.section-right .text-four{
+    display: flex;
+}
